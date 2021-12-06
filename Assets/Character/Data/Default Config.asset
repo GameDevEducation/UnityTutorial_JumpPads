@@ -19,8 +19,7 @@ MonoBehaviour:
   CollisionBuffer: 0.1
   MovementBlendRate: 0.25
   DefaultMaterial: {fileID: 13400000, guid: 61032d66ebde9498289bb810b4033de4, type: 2}
-  MaterialWhenJumping: {fileID: 13400000, guid: e26873654fd1340d6bd67ff4995370a0,
-    type: 2}
+  MaterialWhenJumping: {fileID: 13400000, guid: e26873654fd1340d6bd67ff4995370a0, type: 2}
   StepCheckLookAhead: 0.45
   MaxStepUpDistance: 0.3
   MinStepDownDistance: 0.3
@@ -41,7 +40,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   FallForce: 1
-  AirControl: 1
+  AirControl: 0
   InAirSpeed: 10
   RestrictVerticalRotation: 1
   VerticalRotation_Min: -90

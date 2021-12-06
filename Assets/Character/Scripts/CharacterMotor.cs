@@ -216,8 +216,8 @@ public class CharacterMotor : MonoBehaviour, IPausable
         // are we at rest?
         if (!jumpRequested && !IsJumping && IsGrounded && CharacterRB.velocity.sqrMagnitude < 0.1f && movementInput.sqrMagnitude < 0.1f)
         {
-            CharacterRB.velocity = Vector3.zero;
-            CharacterRB.Sleep();
+            //CharacterRB.velocity = Vector3.zero;
+            //CharacterRB.Sleep();
             IsRunning = false;
         }
         else
